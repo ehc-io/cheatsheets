@@ -1,0 +1,108 @@
+# Regex Python
+
+# match any char except newline
+.
+
+# match at beginning of string
+^
+
+# match at end of string
+$
+
+# match any char(ie., 3 or a or b or c)
+[3a-c]
+
+# match any char except x, y, z or 1
+[^x-z1
+
+# match either A or S regex
+A|S
+
+# capture & match a group of chars(eg., (8097ba))
+()
+
+# escape special characters 
+\
+
+# match 0 or more occurrences(eg., py*)
+*
+
+# match 1 or more occurrences(eg., py+)
++
+
+# match 0 or 1 occurrences(eg., py?)
+?
+
+# match exactly m occurrences(eg., py{3})
+{m}
+
+# match from m to n occurrences(eg., py{1,3})
+{m,n}
+
+# match from 0 to n occurrences(eg., py{,3})
+{,n}
+
+# match m to infinite occurrences(eg., py{3,})
+{m,}
+
+# match m to n occurrences, but as few as possible (eg., py{1,3}?)
+
+# match occurrence only at start of string
+\A 
+
+# match occurrence only at end of string match empty string at word boundary
+\Z 
+
+# between \w and \W)
+\b 
+
+# atch empty string not at word boundary
+\B
+
+# match a digit
+\d
+
+# match a non-digit
+\D
+
+# match any whitespace char: [ \t\n\r\f\v]
+\s
+
+# match any non-whitespace cha
+\S
+
+# match any alphanumeric: [0-9a-zA-Z_]
+\w
+
+# match any non-alphanumeric
+\W
+
+# matches a previously captured group
+\g<id>
+
+# match expression represented by A (non-capture group)
+(?:A)
+
+# match expression A only if followed by B
+A(?=B)
+
+# match expression A only if not followed by B
+A(?!B)
+
+# match expression A only if it follows B
+(?<=B)A
+
+# match expression A only if not preceded by B
+(?<!B)A
+
+# Match all occurrences of expression A in string B
+re.findall(A, B)
+
+# match the first occurrence of expression A in string B
+re.search(A, B)
+
+# split string B into a list using the delimiter A
+re.split(A, B)  
+
+# replace A with B in string C
+re.sub(A, B, C) 

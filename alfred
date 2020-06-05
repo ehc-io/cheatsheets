@@ -1,0 +1,162 @@
+# Alfred Cheatsheet
+
+# space Show Alfred
+⌘ 
+
+# Select the next result in the list
+↓ 
+
+# Select the previous item in the list
+↑ 
+
+# Action the currently selected item
+↩ 
+
+# Action the # item directly [1-9]
+⌘ # 
+
+# Open file or application in default application
+⌘ o 
+
+# Show the Preferences Window
+⌘ , 
+
+# Search the currently typed query in Spotlight
+⌥ ↩ 
+
+# Search the currently typed query in default web search
+⌃ ↩ 
+
+# Reveal in Finder (if the result is a local file)
+⌘ ↩ 
+
+# Show Alfred Preferences
+preferences 
+
+# To launch an application simply start typing its name, then hit Return
+app name
+
+# Use predefined web search keywords
+google, wiki ... 
+
+
+# Follow keyword by query to open a file
+open 
+
+# Follow a space with your query to open a file
+spacebar 
+
+# Follow keyword by query to reveal file in Finder
+find 
+
+# Open the file
+⌘ o 
+
+# Follow by a query to search for files that contain this query
+in 
+
+# Follow keyword by a word and get a definition
+define 
+
+# Follow keyword by a word and see results with suggested spelling
+spell 
+
+# Type a calculation into main window to get the result
+13*567 
+
+# Start an advanced calculation (enable this function in the Calculator Preferences)
+= 
+
+# Start Screen Saver
+screensaver 
+
+# Show Trash
+trash 
+
+# Empty Trash
+emptytrash 
+
+# Log Out
+logout 
+
+# Sleep your Mac
+sleep 
+
+# Sleep your Mac's displays
+sleepdisplays 
+
+# Lock your Mac
+lock 
+
+# Restart your Mac
+restart 
+
+# Shut Down your Mac
+shutdown 
+
+# Eject (removable media or all mounted volumes)
+eject 
+
+# Hide the running application
+hide 
+
+# Quit the running application
+quit 
+
+# Force Quit the running application
+forcequit 
+
+# Navigate to your home folder
+~ 
+
+# Navigate to your root folder
+/ 
+
+# Go to last browsed path in the File System Navigation
+⌥ ⌘ / 
+
+# Go to last browsed path in the File System Navigation
+previous 
+
+# Show list of available Actions for selected item
+→ 
+
+# Show list of available Actions for selected item
+fn 
+
+# Show list of available Actions for selected item
+⌃ 
+
+# Show list of available Actions for selected Finder item
+⌥ ⌘ \ 
+
+# Browse selected folder in File System Navigation
+⌘ ↓ 
+
+# Enter a folder in File System Navigation
+↩ 
+
+# Go up a folder
+backspace 
+
+# Autocomplete
+⇥ 
+
+# Show hidden files in File System Navigation
+# Tip: start typing in name of a folder/file to select it
+. 
+
+# Open Clipboard History viewer
+⌥ ⌘ c 
+
+# Copy selected clip to current Clipboard
+⌘ c 
+
+# Access snippets from main Alfred window with this keyword
+snip 
+
+# Use keyword to clear Clipboard History
+clear 
+
+# Use keyword followed by name or email address to send an email
+email 
